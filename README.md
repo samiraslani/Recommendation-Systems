@@ -5,6 +5,8 @@ This repository contains a recommendation system developed as part of the **Appl
 ## Project Overview
 The recommendation system utilizes **BERT4Rec**, a transformer-based model tailored for sequential recommendation tasks. The model incorporates temporal attention mechanisms to enhance the understanding of time-based patterns in user interactions, improving prediction accuracy.
 
+To make user-specific predictions, we utilized the authors, genres, descriptions of previously interacted books, and user rankings.
+
 ## Dataset
 The system was trained on the **Amazon Customer Reviews** dataset, provided by UCSD. This dataset includes detailed customer reviews and purchase histories across multiple product categories, making it suitable for sequence-based recommendation tasks.
 
